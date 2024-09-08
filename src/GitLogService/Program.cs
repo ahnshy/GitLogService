@@ -19,17 +19,9 @@ namespace GitLogService
                 service.RunAsLocalSystem();
                 service.StartAutomatically();
 
-                service.SetServiceName("Git Log RESTful API Windows Service");
-                service.SetDisplayName("Git Log RESTful API Windows Service");
-                service.SetDescription("This Windows service program is RESTful Service that converts Git Log to JSON for statistics.");
-
-                //string s = ConfigurationManager.AppSettings["ServiceName"];
-                //string a = ConfigurationManager.AppSettings["ServiceDisplayName"];
-                //string c = ConfigurationManager.AppSettings["ServiceDescription"];
-
-                //service.SetServiceName((string)s.Clone());
-                //service.SetDisplayName((string)a.Clone());
-                //service.SetDescription((string)c.Clone());
+                service.SetServiceName(ConfigurationManager.AppSettings["ServiceName"]);
+                service.SetDisplayName(ConfigurationManager.AppSettings["ServiceDisplayName"]);
+                service.SetDescription(ConfigurationManager.AppSettings["ServiceDescription"]);
             });
         }
     }

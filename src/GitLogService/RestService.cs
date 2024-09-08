@@ -1,5 +1,7 @@
 ﻿using Microsoft.Owin.Hosting;
 using System;
+using System.Configuration;
+using System.Linq;
 
 namespace GitLogService
 {
@@ -9,7 +11,11 @@ namespace GitLogService
 
         public void Start()
         {
-            _app = WebApp.Start<Startup>("http://localhost:8082");
+            string protocol = "http";
+            if (ConfigurationManager.AppSettings["UseHttps"].Contains(("true")) == true)
+                protocol = "https";
+
+            _app = WebApp.Start<Startup>(String.Format("{0}://{1}:{2}", protocol, ConfigurationManager.AppSettings["BaseAddress"], ConfigurationManager.AppSettings["Port"]));
         }
 
         public void Stop()
