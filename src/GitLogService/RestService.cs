@@ -9,7 +9,7 @@ namespace GitLogService
 
         public void Start()
         {
-            _app = WebApp.Start<Startup>("http://localhost:8081");
+            _app = WebApp.Start<Startup>("http://localhost:8082");
         }
 
         public void Stop()
