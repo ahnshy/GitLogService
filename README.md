@@ -1,4 +1,4 @@
-# ⚙️GitLogService <br/>
+# ⚙️Git Log Service <br/>
  This is a RESTful API Windows service program that statistically returns Git Log to json. (without express)
 <br/>
 <br/>
