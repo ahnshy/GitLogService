@@ -19,10 +19,10 @@
 <br/>
 
 ## 🛠️ [Technologies]
-- **C# **: A framework that enables dynamic CSR by utilizing the Vue3 Composition API and is optimized for SPA implementation.
-- **Windows Service**: A very fast JavaScript build tool that is more advanced than npm.
-- **RESTful API**: Technology involved in routing links and page services in vuejs.
-- **JSON**: CSS and JS framework that helps make websites easy.
+- **C#**: Object-oriented programming languages announced with the NET project.
+- **Windows Service**: Windows service runs when the Microsoft Windows operating system is started and does not require user interference, and runs in background mode as long as Windows is running.
+- **RESTful API**: It is an application development interface that provides access to resources based on HTTP and URI.
+- **JSON**: JavaScript Object Notation (JSON) is a character-based standard format for representing structured data in JavaScript object grammar.
 
 - Git Log statistics using this service will be implemented additionally with html5, css3, and vue3.js.
 - Please refer to the following for the corresponding repertoire, it is currently being implemented.(https://github.com/ahnshy/GitStatisticsGraph)
