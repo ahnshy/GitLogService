@@ -26,7 +26,8 @@
 - **Windows Service**: Windows service runs when the Microsoft Windows operating system is started and does not require user interference, and runs in background mode as long as Windows is running.
 - **RESTful API**: It is an application development interface that provides access to resources based on HTTP and URI.
 - **JSON**: JavaScript Object Notation (JSON) is a character-based standard format for representing structured data in JavaScript object grammar.
-
+- **Microsoft.AspNet.WebApi.OwinSelfHost**: Open Web Interface for .NET (OWIN) defines the abstraction between .NET web servers and web applications. OWIN separates web applications from servers, making OWIN ideal for self-hosting web applications in user-specific processes outside of IIS (https://learn.microsoft.com/ko-kr/aspnet/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api) <br/>
+Deploy from NuGet package (https://www.nuget.org/packages/Microsoft.AspNet.WebApi.OwinSelfHost)
 - Git Log statistics using this service will be implemented additionally with html5, css3, and vue3.js.
 - Please refer to the following for the corresponding repertoire, it is currently being implemented.(https://github.com/ahnshy/GitStatisticsGraph)
 <br/>
