@@ -97,6 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GitLogManager.cs" />
     <Compile Include="LogController.cs" />
     <Compile Include="WelcomeController.cs" />
     <Compile Include="Program.cs" />
