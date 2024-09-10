@@ -12,7 +12,7 @@ namespace GitLogService
             Dictionary<string, int> logList = new Dictionary<string, int>();
             manager.GetLog(ref logList);
 
-            return logList.Select(item => $"{item.Key}: {item.Value}");
+            return logList.Select(item => $"{item.Key}:{item.Value}");
         }
 
         // GET api/values/5 
