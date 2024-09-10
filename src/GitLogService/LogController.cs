@@ -12,7 +12,7 @@ namespace GitLogService
             Dictionary<string, int> logList = new Dictionary<string, int>();
             manager.GetLog(ref logList);
 
-            IEnumerable<string> strArray = logList.Select(kvp => $"{kvp.Key}: {kvp.Value}");
+            IEnumerable<string> strArray = logList.Select(item => $"{item.Key}: {item.Value}");
             return strArray;
         }
 
