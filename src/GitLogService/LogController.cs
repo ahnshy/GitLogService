@@ -6,11 +6,6 @@ namespace GitLogService
 {
     public class LogController : ApiController
     {
-        // GET api/values 
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
         public IEnumerable<string> Get()
         {
             GitLogManager manager = new GitLogManager();
@@ -41,5 +36,11 @@ namespace GitLogService
         public void Delete(int id)
         {
         }
+
+        // GET api/values 
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
     }
 }
