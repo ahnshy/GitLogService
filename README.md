@@ -64,5 +64,9 @@ Deploy from NuGet package (https://www.nuget.org/packages/Microsoft.AspNet.WebAp
 > <br/>
 > Once completed, we will demonstrate the demo by capturing the screen.<br/>
 >
+>![image](https://github.com/user-attachments/assets/264d696d-0c7e-42f5-a0e7-f32ee1db3b1a)
+>![image](https://github.com/user-attachments/assets/203c2c5b-8daa-4ff1-b900-f5713c03a634)
+
+
 <br/>
 <br/>
