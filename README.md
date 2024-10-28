@@ -39,15 +39,15 @@ Deploy from NuGet package (https://www.nuget.org/packages/Microsoft.AspNet.WebAp
   sc create "Git Log service" binPath= "C:\Program Files (x86)\GitLogService\GitLogService.exe"
 ```
 
+[Run]
+```bash
+  NET START "Git Log service"
+```
+
 [Remove Window Service]
 ```bash
   NET STOP "Git Log service"
   sc delete "Git Log service"
-```
-
-[Run]
-```bash
-  NET START "Git Log service"
 ```
 <br/>
 
